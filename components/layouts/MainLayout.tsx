@@ -4,7 +4,7 @@ import { Navbar } from '../Navbar';
 
 import styles from './MainLayout.module.css';
 
-export const MainLayout = ({ children }) => {
+export const MainLayout = ({ children }: { children: React.ReactNode }) => {
     return (
         <div className={styles.container}>
           
